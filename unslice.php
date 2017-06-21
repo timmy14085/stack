@@ -1,0 +1,1 @@
+<?$a=[];$f=0;eval("\$b={$argv[1]};");foreach($b as$d){$f=$d[0];$e=str_split($d[1]);foreach($e as$c){$a[$f++]=$c;}}ksort($a);echo join('',$a)."\n";

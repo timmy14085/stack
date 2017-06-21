@@ -1,0 +1,1 @@
+<?$i=explode(",",$argv[1]);$m=$n=[];foreach($i as$k=>$v)if($v>0)eval("array_push(\$".($v<2?"m":"n").",$k);");for($p=0;$p<count($i);$p++)foreach($i as$k=>$v)if($v>1){$i[$k]=0;$r=-1;foreach($m as$_)if($r<0||abs($k-$r)>abs($_-$k))$r=$_;while($i[$r]>0)$r+=($r<$k?1:-1);$i[$r]=$v;}$s="";foreach($i as$v)$s.=$v.",";echo substr($s,0,-1)."\n";?>

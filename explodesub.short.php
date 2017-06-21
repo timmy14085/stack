@@ -1,0 +1,1 @@
+<?$c=$argv[1];foreach(str_split($c)as$d=>$b){$a=str_repeat(" ",$d);echo$a.$b."\n";$d++;for($e=$d;$e<strlen($c);$e++){echo$a.$b.substr($c,$d,$e)."\n";}}

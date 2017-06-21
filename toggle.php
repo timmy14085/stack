@@ -1,0 +1,1 @@
+<?$s=$argv[1];$t=$argv[2];echo!strpos($s,$t)?$s.$t:str_replace($t,'',$s);
